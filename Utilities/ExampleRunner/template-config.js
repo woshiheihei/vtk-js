@@ -23,7 +23,7 @@ module.exports = {
   mode: 'development',
   devtool: 'inline-source-map',
   plugins: [
-    new ESLintPlugin(),
+    // new ESLintPlugin(),
     new HtmlWebpackPlugin({
       template: '${root.replace(
         /\\/g,
